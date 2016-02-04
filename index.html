@@ -7,29 +7,55 @@
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css.css">
 
+	<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+ 
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+ 
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+
 	<title>Ham Ipsom</title>
 </head>
 <body>
+<div class="container">
+
 	<h1>HAMIPSOM</h1>
 	<h4>Lorem is the one thing in life you can control</h4>
-	<p>Number of Paragraphs: <select>
-		<option value="0">0</option>
-		<option value="1">1</option>
-		<option value="2">2</option>
-		<option value="3">3</option>
-		<option value="4">4</option>
-		<option value="5">5</option>
-		<option value="6">6</option>
-		<option value="7">7</option>
-		<option value="8">8</option>
-		<option value="9">9</option>
-		<option value="10">10</option>
-	</select>
-
-	<button>WAIT FOR IT</button>
-
-	 </p> 
+	<div class="settings">
+	<p>Number of Paragraphs: 
+		<select>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+		</select>
+			
+ 	</p> 
+		<form id="order">
+ 		 <input type="radio" name="order" value="random" checked> Throw away my shot<br>
+ 		 <input type="radio" name="order" value="sequential"> Don't throw away my shot<br>
+		</form>
+	<br>
+		<button>WAIT FOR IT</button>
+	
 	<div>
+	</div>
 		
 
 	</div>
@@ -45,6 +71,16 @@
 		<p class="lorem" id="p8"></p>
 		<p class="lorem" id="p9"></p>
 	</div>
-	
+</div>
+<footer>
+		<p>All text from the musical <a href="http://www.hamiltonbroadway.com/">Hamilton</a> by <a href="https://twitter.com/Lin_Manuel">Lin Manuel Miranda</a>
+ </p>
+ <p>
+ <a class="twitter-follow-button" data-show-count="false"
+  href="https://twitter.com/alxswan">
+ @alxswan</a>
+ </p>
+</footer>
+
 </body>
 </html>
