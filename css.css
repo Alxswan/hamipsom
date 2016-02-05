@@ -7,14 +7,17 @@ body {
 
 .container {
 	width: 700px;
-		margin: auto;
-
-	height: 90%;
+	margin: auto;
+	min-height: 90%;
 }
 
 footer {
 	height: 10%;
-	font-size: 70%;
+	font-size: 20%;
+	position: fixed;
+    bottom: 0;
+    left: 0;
+    padding-left: 10px;
 }
 
 h1,h4 {
@@ -29,7 +32,9 @@ h1,h4 {
 }
 
 #lorem {
-	font-size: 60%;
+	font-size: 70%;
+	width: 700px;
+	margin: auto;
 }
 
 input {
