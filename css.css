@@ -23,11 +23,19 @@ h1,h4 {
 
 .settings {
 	text-align: center;
-	width: 300px;
+	width: 500px;
 	margin: auto;
 	font-size: 70%;
 }
 
-.lorem {
+#lorem {
 	font-size: 60%;
+}
+
+input {
+	display: inline;
+}
+
+option {
+	text-align: center;
 }
